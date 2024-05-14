@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+img {
+    border-radius: 2%;
+    max-width: 100%;height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: brown;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.header img {
+    width: 80px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: brown;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main a:hover {
+    border: 2px solid brown;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.main a{
+    padding: 10px;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+.main p{
+    font-size: x-large;
+}
+
+.main img {
+    width: 1600px;
+    cursor: pointer;
+}
+
+.seccion-productos {
+    border-top: 3px solid brown;
+    border-bottom: 3px solid brown;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.seccion-productos h1{
+    color: brown;
+}
+
+.productos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(234, 190, 190);
+    border-radius: 2%;
+}
+
+.card img{
+    width: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: brown;
+    text-align: center;
+    color: white;
+    height: 129px;
+}
+
+
